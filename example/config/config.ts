@@ -3,7 +3,7 @@ import os from 'os';
 import { IPlugin, IConfig } from 'umi-types';
 import defaultSettings from './defaultSettings';
 import webpackPlugin from './plugin.config';
-import dartConfig from '@ant-design/dark-theme';
+import dartConfig from './dartConfig';
 
 const { pwa, primaryColor } = defaultSettings;
 const { APP_TYPE, TEST } = process.env;

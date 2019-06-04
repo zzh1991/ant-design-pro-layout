@@ -25,7 +25,12 @@ class GlobalHeaderRight extends Component<GlobalHeaderRightProps> {
   render() {
     const { currentUser, onMenuClick, theme } = this.props;
     const menu = (
-      <Menu className={styles.menu} selectedKeys={[]} onClick={onMenuClick}>
+      <Menu
+        className={styles.menu}
+        selectedKeys={[]}
+        onClick={onMenuClick}
+        theme="dark"
+      >
         <Menu.Item key="logout">
           <Icon type="logout" />
           <FormattedMessage id="menu.account.logout" defaultMessage="logout" />
