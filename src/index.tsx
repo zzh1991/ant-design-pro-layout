@@ -12,6 +12,8 @@ import RouteContext from './RouteContext';
 import getMenuData from './utils/getMenuData';
 import getPageTitle from './getPageTitle';
 
+import GlobalFooter, { GlobalFooterProps } from './GlobalFooter';
+
 export { Settings } from './defaultSettings';
 
 export { MenuDataItem } from './typings';
@@ -24,6 +26,8 @@ export {
   GridContent,
   DefaultHeader,
   DefaultFooter,
+  GlobalFooter,
+  GlobalFooterProps,
   SettingDrawer,
   SettingDrawerState,
   SettingDrawerProps,
